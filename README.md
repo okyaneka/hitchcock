@@ -1,2 +1,1 @@
 # hitchcock
-Wordpress theme
