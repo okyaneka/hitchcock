@@ -45,6 +45,7 @@ function hitchcock_setup() {
 	// Add nav menu
 	register_nav_menu( 'primary', __('Primary Menu','hitchcock') );
 	register_nav_menu( 'social', __('Social Menu','hitchcock') );
+	register_nav_menu( 'footer', __('Footer Menu','hitchcock') );
 	
 	// Make the theme translation ready
 	load_theme_textdomain('hitchcock', get_template_directory() . '/languages');
@@ -447,7 +448,7 @@ class hitchcock_Customize {
 	           <?php self::hitchcock_generate_css('.comment-actions a:hover', 'color', 'accent_color'); ?>
 	           <?php self::hitchcock_generate_css('.archive-nav a:hover', 'color', 'accent_color'); ?>
 	           <?php self::hitchcock_generate_css('#infinite-handle:hover', 'background', 'accent_color'); ?>
-	           <?php self::hitchcock_generate_css('.credits p:first-child a:hover', 'color', 'accent_color'); ?>
+	           <?php self::hitchcock_generate_css('.credits .copy a:hover', 'color', 'accent_color'); ?>
 	           
 	           <?php self::hitchcock_generate_css('.nav-toggle.active .bar', 'background-color', 'accent_color'); ?>
 	           <?php self::hitchcock_generate_css('.mobile-menu a:hover', 'color', 'accent_color'); ?>
