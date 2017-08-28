@@ -1,7 +1,7 @@
 
 <div class="credits section-inner">
 	
-	<?php if ( has_nav_menu( 'social' ) ) : ?>
+	<?php if ( has_nav_menu( 'footer' ) ) : ?>
 			
 		<ul class="footer-menu">
 					
@@ -10,8 +10,7 @@
 					array(
 						'theme_location'	=>	'footer',
 						'container'			=>	'',
-						'items_wrap'		=>	'%3$s',
-						'menu_class'		=>	'menu-items',
+						'items_wrap'		=>	'%3$s'
 					)
 				);
 			?>
